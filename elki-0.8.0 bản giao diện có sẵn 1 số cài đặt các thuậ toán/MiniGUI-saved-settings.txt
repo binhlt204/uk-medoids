@@ -175,6 +175,7 @@ clustering.uncertain.UKMeans
 3
 
 ukmean uniform
+elki.application.KDDCLIApplication
 -dbc.in
 E:\User\Downloads\IRIS1.csv
 -dbc.filter
@@ -184,9 +185,9 @@ UnweightedDiscreteUncertainifier
 -uo.discrete.generator
 UniformUncertainifier
 -uo.uncertainty.min
--2.4632774682112113
+0.0
 -uo.uncertainty.max
-9.390610801544543
+10.0
 -uo.symmetric
 -uo.quantity.max
 500
@@ -223,7 +224,6 @@ clustering.uncertain.UKMeans
 3
 
 ukmean gaussian
-elki.application.KDDCLIApplication
 -dbc.in
 C:\Users\lenovo\Desktop\NCKH\uk-medoids\wine.csv
 -parser.vector-type
