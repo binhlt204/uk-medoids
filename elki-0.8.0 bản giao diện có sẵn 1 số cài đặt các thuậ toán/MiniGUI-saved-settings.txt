@@ -19,24 +19,6 @@ outlier.clustering.KMeansOutlierDetection
 -kmeans.k
 3
 
-[Saved Settings]
-elki.application.KDDCLIApplication
--dbc.in
-C:\Users\lenovo\Downloads\iris (1).csv
--dbc.filter
-typeconversions.UncertainifyFilter
--uofilter.generator
-WeightedDiscreteUncertainifier
--uo.discrete.generator
-SimpleGaussianUncertainifier
--uo.uncertainty.max3sigma
-1.0
--algorithm
-clustering.uncertain.UKMeans
--kmeans.k
-3
--selectionrange.nofill
-
 UKMean]
 elki.application.KDDCLIApplication
 -dbc.in
@@ -188,30 +170,6 @@ UniformUncertainifier
 0.0
 -uo.uncertainty.max
 10.0
--uo.symmetric
--uo.quantity.max
-500
--uo.quantity.min
-500
--uofilter.keep
--algorithm
-clustering.uncertain.UKMeans
--kmeans.k
-3
-
-ukmean uniform glass
--dbc.in
-E:\User\Downloads\glass.csv
--dbc.filter
-typeconversions.UncertainifyFilter
--uofilter.generator
-UnweightedDiscreteUncertainifier
--uo.discrete.generator
-UniformUncertainifier
--uo.uncertainty.min
--10.51067223853283
--uo.uncertainty.max
-20.038499808626288
 -uo.symmetric
 -uo.quantity.max
 500
